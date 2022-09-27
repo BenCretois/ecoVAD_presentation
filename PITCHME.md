@@ -4,7 +4,8 @@ title: ecoVAD
 theme: gaia
 paginate: true
 author: Benjamin Cretois
-footer:  Benjamin Cretois - Norwegian Institute for Nature Research
+footer:  Norwegian Institute for Nature Research | **Twitter**: @benjamincretois | **mail**: benjamin.cretois@nina.no
+
 ---
 
 <!-- _class: lead invert -->
@@ -13,22 +14,22 @@ footer:  Benjamin Cretois - Norwegian Institute for Nature Research
 
 ### An end to end pipeline for training and using Voice Activity Detection models in soundscape analysis.
 
-Benjamin Cretois
+Benjamin Cretois, Carolyn Rosten & Sarab Sethi
 
 
 ---
 
+# About me
 
 ![bg right width:500px height:500px](./assets/pic_twitter.jpg)
 
-![width:80px height:80px](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg) benjamincretois
+:deciduous_tree: Researcher at Norwegian Institute for Nature Research (NINA)
 
-![width:80px height:80px](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg)  ssssss
+<br>
 
-![width:300px height:220px](./assets/NINA.png)
+:computer: Currently mainly working with **bioacoustics**
 
-
-
+... but also HPC, Deep learning 
 
 
 ---
@@ -50,7 +51,7 @@ Benjamin Cretois
 
 <br>
 
-:collision: We developed an end-to-end VAD pipeline and show how VAD models can be used for both!
+:collision: We developed an end-to-end VAD pipeline and show how VAD models can be used for anonymisation & human noise quantification!
 
 ---
 
@@ -62,7 +63,7 @@ Benjamin Cretois
 
 # Method
 
-We compare our pipeline with 2 state-of-the-art VAD models:
+We developped an end-to-end pipeline ([ecoVAD](https://github.com/NINAnor/ecoVAD)) and compared it with 2 state-of-the-art VAD models:
 
 - [Pyannote](https://github.com/pyannote/pyannote-audio)
 - [Google's WebRTC VAD](https://github.com/wiseman/py-webrtcvad)
@@ -72,7 +73,7 @@ We compare our pipeline with 2 state-of-the-art VAD models:
 
 :star: **Note** that in our repo we provided wrappers for using both models
 
---- 
+---
 
 # Method
 
@@ -124,11 +125,16 @@ We compare our pipeline with 2 state-of-the-art VAD models:
 
 # Discussion
 
-:star: Specificity vs state-of-the-art
+:star: The importance of training a model for **specific** purpose
 
-:star:
+<br>
 
-:star: Speech detections as a direct measure of anthropogenic noise pollution and indirect proxy of human disturbance 
+:star: But ... there is a trade of to make with generalisation (Pyannote performed better on a more "anthropogenic")
+ area
+
+
+
+:star: Speech detections as a **direct measure of anthropogenic noise pollution** and **indirect proxy of human disturbance**
 
 
 
@@ -137,10 +143,14 @@ We compare our pipeline with 2 state-of-the-art VAD models:
 
 # Discussion
 
+<br>
 
 :arrow_right: Have a look at the [ecoVAD GitHub repo!](https://github.com/NINAnor/ecoVAD)
 
-:arrow_right: And very soon the paper!
+:arrow_right: And very soon the paper in MEE!
 
 
+:arrow_right: Current work on **snowscooter detections**
 
+
+:arrow_right: Please reach out to us for any questions / collaboration!
