@@ -154,3 +154,12 @@ We developped an end-to-end pipeline ([ecoVAD](https://github.com/NINAnor/ecoVAD
 
 
 :arrow_right: Please reach out to us for any questions / collaboration!
+
+
+---
+
+
+
+<audio src="anonym_audio.wav"></audio>
+
+<embed src="anonym_audio.wav" width="32" height="32"></embed>
