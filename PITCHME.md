@@ -12,9 +12,12 @@ footer:  Norwegian Institute for Nature Research | **Twitter**: @benjamincretois
 
 # ecoVAD :four_leaf_clover:
 
-### An end to end pipeline for training and using Voice Activity Detection models in soundscape analysis.
+## *Voice activity detection in eco-acoustic data enables privacy protection and is a proxy for human disturbance*
+
 
 Benjamin Cretois, Carolyn Rosten & Sarab Sethi
+
+
 
 
 ---
@@ -157,9 +160,3 @@ We developped an end-to-end pipeline ([ecoVAD](https://github.com/NINAnor/ecoVAD
 
 
 ---
-
-
-
-<audio src="anonym_audio.wav"></audio>
-
-<embed src="anonym_audio.wav" width="32" height="32"></embed>
